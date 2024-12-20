@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        SLACK_CHANNEL = '#all-itsvansh'  // Slack channel
-        SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/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'
+        SLACK_CHANNEL = '#tt'  // Slack channel
+        SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/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'
     }
     stages {        
         stage('Request Approval') {
